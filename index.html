@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Sokoban</title>
+</head>
+
+<body>
+    <div id="app">
+        <div id="level-menu">
+            <h6>Choisir un niveau</h6>
+                <ul>
+                <li><button class="level-button" value="level_1">Niveau 1</button></li>
+                <li><button class="level-button" value="level_2">Niveau 2</button></li>
+                <li><button class="level-button" value="level_3">Niveau 3</button></li>
+                <form id="level-file-form">
+                    <input id="level-file" type="file" name="file">
+                </form>
+                </ul>
+        </div>
+    </div>
+    <script src="scripts/canvas.js" type="module"></script>
+    <script src="scripts/game.js" type="module"></script>
+    <script src="scripts/app.js" type="module"></script>
+    <script src="scripts/play_game.js" type="module"></script>
+    <script src="scripts/chronometre.js" type="module"></script>
+</body>
+
+</html>

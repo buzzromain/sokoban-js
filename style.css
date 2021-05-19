@@ -1,0 +1,93 @@
+@font-face {
+    font-family: "Minecraft";
+    src: url("fonts/Minecraft.TTF") format("truetype");
+}
+
+body {
+    max-height: max-content;
+    max-width: max-content;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+#app {
+    font-family: Minecraft;
+    font-size: 5em;
+    color:#f39c12;
+}
+
+#app h6 {
+    margin: 0px;
+}
+
+#app li {
+    list-style: none;
+}
+
+#app ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+#app button {
+    margin: 0px;
+    background-color: #f39c12;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: Minecraft;
+}
+
+#app input {
+    margin: 0px;
+    background-color: #f39c12;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: Minecraft;
+}
+#win-text {
+    margin: 1em;
+    font-family: Minecraft;
+    font-size: 5em;
+    color:#f39c12;
+}
+
+#canvas {
+    max-height: max-content;
+    max-width: max-content;
+    box-shadow: 8px 8px 0px #aaa; 
+}
+
+#game-info {
+    font-family: Minecraft;
+    font-size: 1em;
+    border: 3px solid  #f39c12;
+    width: 100%;
+    color: #f39c12;
+}
+
+#select-level {
+    font-family: Minecraft;
+    font-size: 1em;
+    border: 3px solid  #f39c12;
+    width: 100%;
+    color: #f39c12;
+}
+
+#game-info * {
+    margin: 1px;
+}
+
+#level-button {
+    margin: 1em;
+}
